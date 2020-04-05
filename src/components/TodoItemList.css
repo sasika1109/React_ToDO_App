@@ -1,0 +1,29 @@
+
+.list{
+    color: black;
+    width: auto;
+    background-color: gray;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.list p {
+    padding: 10px;
+    position: relative;
+}
+.list p span {
+    position:absolute;
+    right:10px;
+}
+.delete {
+    margin:0 5px;
+    front-size:15px;
+}
+
+#list p span #id{
+    background-color: blueviolet;
+}
+
+.list p input {
+    background-color: transparent;
+    border: 0;
+}
